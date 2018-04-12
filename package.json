@@ -1,5 +1,5 @@
 {
-  "name": "@dashevo/bitcore-mnemonic",
+  "name": "bitcore-mnemonic-gobyte",
   "version": "1.2.2",
   "description": "BIP39 Mnemonics implemented for Bitcore.",
   "author": "BitPay <dev@bitpay.com>",
@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashpay/bitcore-mnemonic-dash.git"
+    "url": "https://github.com/gobytecoin/bitcore-mnemonic-gobyte.git"
   },
   "keywords": [
-    "dash",
+    "gobyte",
     "bitcore",
     "mnemonic",
     "crypto",
@@ -31,14 +31,14 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "bitcore-build-dash": "dashpay/bitcore-build-dash",
+    "bitcore-build-gobyte": "gobytecoin/bitcore-build-gobyte",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.14.0",
+    "bitcore-lib-gobyte": "gobytecoin/bitcore-lib-gobyte",
     "unorm": "^1.3.3"
   }
 }
